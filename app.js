@@ -10,6 +10,7 @@ import { backendRoute } from "./routes/backendRoute.js";
 import { funstuffRoute } from "./routes/funstuffRoute.js";
 import { uxdesignRoute } from "./routes/uxdesignRoute.js";
 import { userRoute } from "./routes/userRoute.js";
+import { notesRoute } from "./routes/notesRoutes.mjs";
 
 dotenv.config();
 
@@ -25,3 +26,4 @@ app.use("/backend", backendRoute);
 app.use("/funstuff", funstuffRoute);
 app.use("/uxdesign", uxdesignRoute);
 app.use("/users", userRoute);
+app.use("/notes", notesRoute);
