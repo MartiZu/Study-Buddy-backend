@@ -10,7 +10,7 @@ import { backendRoute } from "./routes/backendRoute.js";
 import { funstuffRoute } from "./routes/funstuffRoute.js";
 import { uxdesignRoute } from "./routes/uxdesignRoute.js";
 import { userRoute } from "./routes/userRoute.js";
-import { notesRoute } from "./routes/notesRoutes.mjs";
+import { notesRoute } from "./routes/notesRoutes.js";
 
 dotenv.config();
 

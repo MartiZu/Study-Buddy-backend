@@ -1,4 +1,4 @@
-import * as notesModels from "../models/notesModels.mjs";
+import * as notesModels from "../models/notesModels.js";
 
 //get all notes from database
 export async function getAllNotesController(req, res) {

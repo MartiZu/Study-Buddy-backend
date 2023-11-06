@@ -1,4 +1,4 @@
-import { pool } from "../database/index.mjs";
+import { pool } from "../db/index.js";
 
 //get all notes
 export async function getAllFromNotesModel() {
