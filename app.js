@@ -18,7 +18,11 @@ export const app = express();
 
 app.use(morgan("dev"));
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
+  })
+);
 
 //express your routes and path
 app.use("/frontend", frontendRoute);
